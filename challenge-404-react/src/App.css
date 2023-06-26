@@ -1,0 +1,79 @@
+
+.not-found {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px 0 50px 30px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+
+.main-container__img {
+  background-image: url('./assets/scarecrow.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50vw;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+
+.text-container .title {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text-container .parrafo {
+  max-width: 400px;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+.text-container button {
+  all: unset;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 20px 30px 20px 30px;
+  color: white;
+  background-color: #4F4F4F;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width: 768px) {
+  .main-container{
+      display: flex;
+      flex-direction: row;
+      
+  }
+  .main-container_img {
+      width: 400px;
+      margin: 0 auto;
+  }
+  .text-container {
+      margin: 0 auto;
+  }
+  .text-container .title {
+      max-width: 400px;
+  }
+  .text-container .parrafo{
+      max-width: 400px;
+  }
+}
+
